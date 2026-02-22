@@ -4,8 +4,8 @@ CC          = gcc
 LD          = ld
 AS          = nasm
 
-CFLAGS      = -ffreestanding -O2 -Wall -Wextra -std=gnu99
-LDFLAGS     = -T linker.ld -nostdlib
+CFLAGS = -m32 -ffreestanding -O2 -Wall -Wextra -std=gnu99 
+LDFLAGS = -m elf_i386 -T linker.ld -nostdlib
 
 SRC_C = \
 kernel/kernel.c \
