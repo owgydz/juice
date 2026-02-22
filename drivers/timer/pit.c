@@ -17,11 +17,6 @@ void pit_init(uint32_t frequency)
 
 void pit_handler(void)
 {
-    // future scheduler hook
-}
-
-void pit_handler(void)
-{
     tick_count++;
 }
 
