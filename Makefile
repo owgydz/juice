@@ -1,7 +1,7 @@
 
 ARCH        = i386
-CC          = i686-elf-gcc
-LD          = i686-elf-ld
+CC          = gcc
+LD          = ld
 AS          = nasm
 
 CFLAGS      = -ffreestanding -O2 -Wall -Wextra -std=gnu99

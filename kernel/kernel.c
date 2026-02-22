@@ -1,5 +1,3 @@
-// kernel/kernel.c
-// Juice Kernel v0.01-standard
 
 #include <stdint.h>
 
