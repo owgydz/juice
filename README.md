@@ -31,7 +31,7 @@ It is designed to start simple while maintaining a clean architecture that can s
 
 ### Requirements
 
-- `i686-elf-gcc`
+- `i686-elf-gcc` or `gcc`
 - `nasm`
 - `grub-mkrescue`
 - `qemu-system-i386`
@@ -44,6 +44,6 @@ make
 
 ### Run in QEMU
 ```bash
-make
+make run
 ```
 
