@@ -6,7 +6,7 @@ It is designed to start simple while maintaining a clean architecture that can s
 
 ---
 
-## ✨ Features
+## Features
 
 - Multiboot2 (GRUB) boot
 - 32-bit protected mode
